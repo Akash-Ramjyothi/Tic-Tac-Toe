@@ -5,7 +5,7 @@ export default function Player({ initialName, symbol }) {
   const [isEditing, setIsEditing] = useState(false);
 
   function handleChange(event) {
-    console.log(event.target);
+    // console.log(event.target);
     setPlayerName(event.target.value);
   }
 
