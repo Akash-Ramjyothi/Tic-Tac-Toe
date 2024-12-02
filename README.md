@@ -1,1 +1,1 @@
-Added CI/CD with GitHub pages.
+Added CI/CD with GitHub pages. Improved state processing.
