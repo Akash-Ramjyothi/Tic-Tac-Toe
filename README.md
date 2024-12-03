@@ -1,1 +1,3 @@
-Added CI/CD with GitHub pages. Improved state processing.
+Added CI/CD with GitHub pages. 
+Improved state processing.
+Updated winning player striking component.
