@@ -18,3 +18,4 @@ Changing name input button UI.
 Creating scoring hierarchy logic.
 Fixing item creation error.
 Deploying on netlify.
+Fixed minor state-change bugs.
