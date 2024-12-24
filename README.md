@@ -19,3 +19,4 @@ Creating scoring hierarchy logic.
 Fixing item creation error.
 Deploying on netlify.
 Fixed minor state-change bugs.
+Revised scoring logic an updating component.
