@@ -22,3 +22,4 @@ Fixed minor state-change bugs.
 Revised scoring logic an updating component.
 Fixing bugs.
 Developing scoring validation functionality.
+Iterating player moves asynchronously.
