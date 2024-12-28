@@ -23,3 +23,4 @@ Revised scoring logic an updating component.
 Fixing bugs.
 Developing scoring validation functionality.
 Iterating player moves asynchronously.
+Debugging scoring bug.
