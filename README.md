@@ -22,7 +22,7 @@
 - Revised scoring logic an updating component.
 - Fixing bugs.
 - Developing scoring validation functionality.
-Iterating player moves asynchronously.
+- Iterating player moves asynchronously.
 Debugging scoring bug.
 Revising parameters to be passed.
 Optimizing parallel processing.
