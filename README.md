@@ -27,4 +27,4 @@
 - Revising parameters to be passed.
 - Optimizing parallel processing.
 - Added iterative scoring.
-- Fixing Merge Conflicts from previous commits.
+Fixing Merge Conflicts from previous commits.
