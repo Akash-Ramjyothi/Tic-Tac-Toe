@@ -1,17 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic Meta -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/game-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React Tic-Tac-Toe</title>
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- SEO -->
+    <title>React Tic-Tac-Toe | Play Classic Game Online</title>
+    <meta
+      name="description"
+      content="Play a classic Tic-Tac-Toe game built with React. Clean UI, fast performance, and interactive gameplay."
+    />
+    <meta name="keywords" content="React, Tic Tac Toe, JavaScript Game, Web App, Frontend Project" />
+    <meta name="author" content="Your Name" />
+
+    <!-- Open Graph (Social Sharing) -->
+    <meta property="og:title" content="React Tic-Tac-Toe" />
+    <meta property="og:description" content="A fast and interactive Tic-Tac-Toe game built with React." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/game-logo.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/game-logo.png" />
+
+    <!-- Preload Assets -->
+    <link rel="preload" as="image" href="/game-logo.png" />
+
+    <!-- Optional Global Styles -->
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        background-color: #0f172a;
+        color: #f8fafc;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1.5rem;
+        background: #1e293b;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      header img {
+        height: 50px;
+        width: 50px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+      }
+
+      #root {
+        padding: 2rem;
+        text-align: center;
+      }
+    </style>
   </head>
+
   <body>
     <header>
-      <img src="game-logo.png" alt="text" />
-      <h1>Tic-Tac-Toe</h2>
+      <img src="/game-logo.png" alt="Tic-Tac-Toe Game Logo" />
+      <h1>Tic-Tac-Toe</h1>
     </header>
-    <div id="root"></div>
+
+    <main>
+      <div id="root" role="application"></div>
+    </main>
+
+    <noscript>
+      <p style="text-align:center; padding:1rem; color:red;">
+        This application requires JavaScript to run. Please enable JavaScript
+        in your browser.
+      </p>
+    </noscript>
+
     <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>
